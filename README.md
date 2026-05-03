@@ -1,52 +1,77 @@
-🚀 MeterFlow – API Usage & Billing SaaS
+**🚀 MeterFlow – API Usage & Billing SaaS**
 
-A complete API management and billing SaaS platform built using PHP & MySQL.
-MeterFlow allows users to create APIs, generate keys, track usage, and manage billing with a clean dashboard.
+**A complete API management and billing SaaS platform built using PHP & MySQL.
+MeterFlow allows users to create APIs, generate keys, track usage, and manage billing with a clean dashboard.**
 
-🌟 Features
-🔐 Authentication
+---
+**🌟 Features**
+
+**🔐 Authentication**
+
 User Registration & Login
 Session-based authentication
-📊 Dashboard
+
+**📊 Dashboard**
+
 Total APIs, Keys, Requests
 Billing summary
 Usage analytics graph
 Clean SaaS UI
-🔑 API Management
+
+**🔑 API Management**
+
 Create API
 Generate API Key
 Manage & revoke keys
-🔄 API Gateway
+
+**🔄 API Gateway**
+
 Secure API access using API keys
 Endpoint forwarding
 Request validation
-📜 Usage Logs
+
+**📜 Usage Logs**
+
 Track all API requests
 Status code monitoring
 Timestamp logs
-💰 Billing System
+
+**💰 Billing System**
+
 Free usage limit
 Pay-per-request model
 Automatic bill calculation
-💳 Payment System (Demo)
+
+**💳 Payment System (Demo)**
+
 Checkout popup flow
 Payment method selection (UPI, Card, Net Banking)
 Payment success simulation
-📦 Subscription Plans
+
+**📦 Subscription Plans**
+
 Free Plan
 Pro Plan (usage-based)
 Enterprise Plan (custom)
-🛠 Admin Panel
+
+**🛠 Admin Panel**
+
 View total users, APIs, keys
 Revenue tracking
 System analytics
-🧱 Tech Stack
+
+**🧱 Tech Stack**
+
 Frontend: HTML, CSS (custom SaaS UI)
 Backend: PHP (Core PHP)
 Database: MySQL
 Server: XAMPP / Localhost
 
-📁 Project Structure
+---
+
+
+**📁 Project Structure**
+
 meterflow/
 │
 ├── auth/
@@ -78,41 +103,58 @@ meterflow/
 │   └── db.php
 │
 └── database.sql
-⚙️ Installation
-1️⃣ Clone the repository
+
+---
+
+
+**⚙️ Installation**
+
+
+**1️⃣ Clone the repository**
 git clone https://github.com/your-username/meterflow.git
-2️⃣ Move to XAMPP
+
+**2️⃣ Move to XAMPP**
 
 Place folder inside:
-
 htdocs/
-3️⃣ Import Database
+
+**3️⃣ Import Database**
+
 Open phpMyAdmin
 Create database: meterflow
 Import database.sql
-4️⃣ Configure Database
 
+**4️⃣ Configure Database**
 Edit:
 
 config/db.php
 $conn = mysqli_connect("localhost", "root", "", "meterflow");
-5️⃣ Run Project
+
+
+**5️⃣ Run Project**
 
 Open:
 
 http://localhost/meterflow
-🔌 API Gateway Usage
+
+**🔌 API Gateway Usage**
 
 Example request:
 
 http://localhost/meterflow/api/gateway.php?key=YOUR_API_KEY&endpoint=users
-💰 Billing Logic
+
+---
+
+**💰 Billing Logic**
+
 Free Limit: Configurable (default: 1000 or custom)
 Price: ₹0.5 per extra request
 Formula:
 extra_requests = total_requests - free_limit
 amount = extra_requests * price_per_request
-🎯 Future Improvements
+
+**🎯 Future Improvements**
+
 Real payment integration (Razorpay / Stripe)
 Invoice generation
 Email notifications
@@ -120,26 +162,21 @@ Rate limiting
 API analytics charts (advanced)
 Multi-tenant SaaS support
 ---
-📸 Screenshots
+
+**📸 Screenshots**
 Dashboard
 Billing Page
 Plans Page
 Admin Panel
 
-(👉 Add your screenshots here)
+ 
 
-👨‍💻 Author
+**👨‍💻 Author**
 
 Kesar Karale
 
-📌 Note
+
+**📌 Note**
 
 This project is built for learning & demonstration purposes and simulates SaaS billing and payment flow.
-
-⭐ If you like this project
-
-Give it a ⭐ on GitHub!
-
-💬 Bonus (Viva Line 😎)
-
-👉 “MeterFlow is a SaaS-based API management platform that enables secure API access, tracks usage, and implements a scalable billing system based on request consumption.”
+ 

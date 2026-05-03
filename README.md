@@ -174,51 +174,61 @@ Multi-tenant SaaS support
 
 
  **Register Page**
+ 
 ![register](register.png)
 
 
 
  **Login Page**
+ 
 ![loginr](login.png)
 
 
 
  **Dashboard Page**
+ 
 ![Dashboard](Dashboard.png)
 
 
 
  **Create-API Page**
+ 
 ![create-api](create-api.png)
 
 
 
  **Generate-API Page**
-![generate](generate.png)
+ 
+![genetare](genetare.png)
 
 
 
  **Manage-API Key Page**
+ 
 ![manage_key](manage_key.png)
 
 
 
  **Test API Page**
+ 
 ![test](test.png)
 
 
 
  **Usage_Log Page**
+ 
 ![usage](usage.png)
 
 
 
  **Billing Page**
+ 
 ![bill](bill.png)
 
 
 
  **Admin Panel**
+ 
 ![admin](admin.png)
 
 ![admin2](admin2.png)

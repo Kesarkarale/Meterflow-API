@@ -171,8 +171,9 @@ Multi-tenant SaaS support
 ---
 
 **📸 Screenshots**
- 
 
+ **Register Page**
+![Register Page](register.png)
  
 
 **👨‍💻 Author**

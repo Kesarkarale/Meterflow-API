@@ -173,7 +173,7 @@ Multi-tenant SaaS support
 **📸 Screenshots**
 
  **Register Page**
-![Register Page](register.png)
+![register](register.png)
  
 
 **👨‍💻 Author**

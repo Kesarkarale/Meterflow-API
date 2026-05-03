@@ -72,37 +72,37 @@ Server: XAMPP / Localhost
 
 **📁 Project Structure**
 
-meterflow/
-│
-├── auth/
-│   ├── login.php
-│   ├── register.php
-│   └── logout.php
-│
-├── dashboard/
-│   └── index.php
-│
-├── api/
-│   ├── create_api.php
-│   ├── generate_key.php
-│   ├── manage_keys.php
-│   ├── gateway.php
-│   └── test_api.php
-│
-├── logs/
-│   └── usage_logs.php
-│
-├── billing/
-│   ├── calculate.php
-│   └── plans.php
-│
-├── admin/
-│   └── index.php
-│
-├── config/
-│   └── db.php
-│
-└── database.sql
+meterflow/                                                                       
+│                                                                                   
+├── auth/                                                             
+│   ├── login.php                                                                 
+│   ├── register.php                                                                                                  
+│   └── logout.php                                                                               
+│                                                                                                     
+├── dashboard/                                                                                        
+│   └── index.php                                                                                       
+│                                                                                                         
+├── api/                                                                                  
+│   ├── create_api.php                                                                                 
+│   ├── generate_key.php                                                                       
+│   ├── manage_keys.php                                                                                              
+│   ├── gateway.php                                                                   
+│   └── test_api.php                                                                                            
+│                                                                                                                 
+├── logs/                                                                                                   
+│   └── usage_logs.php                                                                                             
+│                                                                                                                       
+├── billing/                                                                                                                                    
+│   ├── calculate.php                                                                                                                              
+│   └── plans.php                                                                                                                                            
+│                                                                                                                                         
+├── admin/                                                                                               
+│   └── index.php                                                                                                         
+│                                                                                                                       
+├── config/                                                                                                            
+│   └── db.php                                                                                                                   
+│                                                                                                                         
+└── database.sql                                                                             
 
 ---
 
@@ -110,7 +110,8 @@ meterflow/
 **⚙️ Installation**
 
 
-**1️⃣ Clone the repository**
+**1️⃣ Clone the repository** 
+
 git clone https://github.com/your-username/meterflow.git
 
 **2️⃣ Move to XAMPP**
@@ -121,7 +122,9 @@ htdocs/
 **3️⃣ Import Database**
 
 Open phpMyAdmin
+
 Create database: meterflow
+
 Import database.sql
 
 **4️⃣ Configure Database**
@@ -148,9 +151,13 @@ http://localhost/meterflow/api/gateway.php?key=YOUR_API_KEY&endpoint=users
 **💰 Billing Logic**
 
 Free Limit: Configurable (default: 1000 or custom)
+
 Price: ₹0.5 per extra request
+
 Formula:
+
 extra_requests = total_requests - free_limit
+
 amount = extra_requests * price_per_request
 
 **🎯 Future Improvements**
@@ -164,10 +171,7 @@ Multi-tenant SaaS support
 ---
 
 **📸 Screenshots**
-Dashboard
-Billing Page
-Plans Page
-Admin Panel
+ 
 
  
 
